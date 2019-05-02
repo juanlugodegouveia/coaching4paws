@@ -36,7 +36,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 
 section h2.section-heading {
@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 75px 0;
   }
 }
 
@@ -241,6 +241,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 /* Gallery */
+
+#gallery a img {
+  padding-bottom: 5px;
+}
 
 
 /* Timeline */
@@ -431,6 +435,8 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+/* Team */
+
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -459,6 +465,17 @@ section#contact {
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+section#contact a {
+  color: #fff!important;
+  text-decoration: none;
+}
+
+section#contact a i {
+  color: #50e519;
+  font-size: 30px;
+
 }
 
 section#contact .section-heading {
